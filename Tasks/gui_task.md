@@ -1,6 +1,35 @@
 # Example 1
+
+## Python Code
+```.py
+from kivymd.app import MDApp
+
+class example1(MDApp):
+    def build(self):
+        return
+```
+
+## KV File
+
+```.py
+Screen:
+    size: 500, 500
+
+    MDLabel:
+        text: "Hello World"
+        halign: "center"
+        font_size: "34pt"
+```
+
+## Evidence
+<img width="845" alt="Screen Shot 2023-01-29 at 22 46 06" src="https://user-images.githubusercontent.com/111941990/215330333-b57e5d89-fc67-4bc0-bd95-52b22e37fe1b.png">
+
+
+
+test = example1()
+test.run()
 # Gui Task
-## Python code
+## Python Code
 ```.py
 from kivymd.app import MDApp
 
