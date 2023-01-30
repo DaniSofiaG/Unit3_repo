@@ -27,9 +27,22 @@ Screen:
 ## Evidence
 <img width="845" alt="Screen Shot 2023-01-29 at 22 46 06" src="https://user-images.githubusercontent.com/111941990/215330333-b57e5d89-fc67-4bc0-bd95-52b22e37fe1b.png">
 
-# Example 2
 
+# Example 2
 ## Python Code
+```.py
+from kivymd.app import MDApp
+
+class example2(MDApp):
+    def build(self):
+        return
+
+    def close(self):
+        exit()
+
+test = example2()
+test.run()
+```
 
 ## KV File
 ```.py
@@ -56,6 +69,11 @@ Screen:
         on_press:
             app.close()
 ```
+
+
+## Evidence
+<img width="815" alt="Screen Shot 2023-01-30 at 8 24 17" src="https://user-images.githubusercontent.com/111941990/215365675-603e42f4-e3b4-4baf-9fc6-a50b3c312a55.png">
+
 
 # Gui Task
 ## Python Code
