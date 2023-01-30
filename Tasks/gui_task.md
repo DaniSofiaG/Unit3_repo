@@ -7,6 +7,9 @@ from kivymd.app import MDApp
 class example1(MDApp):
     def build(self):
         return
+        
+test = example1()
+test.run()
 ```
 
 ## KV File
@@ -24,10 +27,36 @@ Screen:
 ## Evidence
 <img width="845" alt="Screen Shot 2023-01-29 at 22 46 06" src="https://user-images.githubusercontent.com/111941990/215330333-b57e5d89-fc67-4bc0-bd95-52b22e37fe1b.png">
 
+# Example 2
 
+## Python Code
 
-test = example1()
-test.run()
+## KV File
+```.py
+# example2.kv
+Screen:
+    size: 500, 500
+    MDBoxLayout:
+    pos_hint: {"center_x":0.5}
+    size_hint: .7, .7
+    md_bg_color: "#fdfcdc"
+    orientation: "vertical"
+
+    MDLabel:
+        text: "Hello World"
+        halign: "center"
+        font_size: "34pt"
+
+    MDRaisedButton:
+        text: "Close"
+        size_hint: .5, 1
+        font_size: "34pt"
+        md_bg_color: "#f07167"
+        pos_hint: {"center_x":0.5}
+        on_press:
+            app.close()
+```
+
 # Gui Task
 ## Python Code
 ```.py
