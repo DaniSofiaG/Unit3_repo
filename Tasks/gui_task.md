@@ -78,6 +78,9 @@ Screen:
 # Gui Task
 ## Python Code
 ```.py
+import sys
+sys.setrecursionlimit(10**6)
+
 from kivymd.app import MDApp
 
 class converter(MDApp):
@@ -89,22 +92,21 @@ class converter(MDApp):
         self.home_value = 0
 
     def jpy(self):
-        jpy_value = self.home_value * 6.92
-        self.root.ids.value_label.text = f"{self.home_value} MXN pesos is equal {jpy_value} JPY"
+        self.home_value * 6.92
+        self.root.ids.jpy_value.text = f"¥{round(self.home_value * 6.92, 2)} JPY"
 
     def usd(self):
-        # decrease the counter by one and show it in the text of counter_label
-        usd_value = self.home_value * 0.53
-        self.root.ids.value_label.text = f"{self.home_value} MXN pesos is equal {usd_value} USD"
+        self.home_value * 0.53
+        self.root.ids.jpy_value.text = f"${round(self.home_value / 18.77, 2)} USD"
 
     def set_home_value(self):
         number = int(self.root.ids.user_num.text)
         self.home_value = number
-        self.root.ids.value_label.text = f"Count is {self.set_home_value()}"
 
 test = converter()
 test.run()
 ```
+
 ## KV File
 ```.py
 Screen:
@@ -143,15 +145,19 @@ Screen:
             size_hint: 0.7, 1
             pos_hint: {"center_x": 0.5}
 
-            MDRaisedButton:
+            MDLabel:
                 text: "CLICK TO CONVERT"
                 pos_hint: {"center_x": 0.5, "center_y":0.9}
-                md_bg_color: "#00C2D1" #aqua blue
+                size_hint: 0.9, 0.3
+                font_size: 35
 
-            MDBoxLayout:
-                id: space_box
+            MDBoxLayout
+                id: space_box_3
                 orientation: "horizontal"
-                size_hint: 2.1, 0.3
+                size_hint: 1, 0.5
+                pos_hint: {"center_y":0.9}
+
+
 
             MDBoxLayout:
                 id: fourth_box
@@ -160,6 +166,7 @@ Screen:
 
 
                 MDRaisedButton:
+                    id: jpy_value
                     text: "JPY"
                     md_bg_color: "red"
                     pos_hint: {"center_x": 0.5, "center_y":0.9}
@@ -168,11 +175,16 @@ Screen:
 
 
                 MDRaisedButton:
+                    id: usd_value
                     text: "USD"
                     md_bg_color: "blue"
                     pos_hint: {"center_x": 0.5, "center_y":0.9}
+                    on_release:
+                        app.usd()
 ```
 
 ## Evidence
+<img width="816" alt="Screen Shot 2023-01-30 at 14 05 16" src="https://user-images.githubusercontent.com/111941990/215391906-b02c8416-2d84-4bdd-8bb6-125e224b1d47.png">
+
 https://user-images.githubusercontent.com/111941990/215391305-8ac2e345-35e7-4683-afba-2cb2f6d4b5f9.mov
 
