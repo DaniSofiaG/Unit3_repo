@@ -99,17 +99,17 @@ Screen:
         id: title
         text: ""
         font_style: "H1"
-        pos_hint: {"center_y: .8"}
+        pos_hint: {"center_y":.8}
         halign: "center"
 
     MDBoxLayout:
-        pos_hint: {"center_x":0.5, "center_y": 0.5}
-        size_hint: 0.7, 0.2
+        pos_hint: {"center_x":.5,"center_y":.5}
+        size_hint: .7, .2
         orientation: "horizontal"
 
         MDChip:
             text: "Author A"
-            pos_hint: {"center_y": 0.5}
+            pos_hint: {"center_y": .5}
             icon_right: "close-circle-outline"
             md_bg_color: "#003049"
             text_color: "#FFFFFF"
@@ -122,29 +122,30 @@ Screen:
             md_bg_color: "#D62828"
             on_press: app.change_author("B")
 
-
         MDChip:
             text: "Author C"
-            pos_hint: {"center_y": 0.5}
+            pos_hint: {"center_y":.5}
             icon_right: "close-circle-outline"
             md_bg_color: "#F77F00"
             on_press: app.change_author("C")
 
         MDChip:
             text: "Author D"
-            pos_hint: {"center_y": .5}
+            pos_hint: {"center_y":.5}
             icon_right: "close-circle-outline"
             md_bg_color: "#FCBF49"
             on_press: app.change_author("D")
 
         MDChip:
             text: "Author E"
-            pos_hint: {"center_y": .5}
+            pos_hint: {"center_y":.5}
             icon_right: "close-circle-outline"
             md_bg_color: "#EAE2B7"
-            icon_left: "map-marker"
             on_press: app.change_author("E")
 ```
+## Evidence
+
+<img width="811" alt="Screen Shot 2023-01-30 at 19 15 06" src="https://user-images.githubusercontent.com/111941990/215449895-65c08022-8562-4823-a6fd-79b62ede5e38.png">
 
 # Gui Task
 ## Python Code
