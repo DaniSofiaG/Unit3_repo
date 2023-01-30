@@ -62,7 +62,7 @@ Screen:
 
     MDRaisedButton:
         text: "Close"
-        size_hint: .5, 1
+        size_hint: .5, .4
         font_size: "34pt"
         md_bg_color: "#f07167"
         pos_hint: {"center_x":0.5}
@@ -72,7 +72,7 @@ Screen:
 
 
 ## Evidence
-<img width="815" alt="Screen Shot 2023-01-30 at 8 24 17" src="https://user-images.githubusercontent.com/111941990/215365675-603e42f4-e3b4-4baf-9fc6-a50b3c312a55.png">
+<img width="806" alt="Screen Shot 2023-01-30 at 10 18 52" src="https://user-images.githubusercontent.com/111941990/215368511-98c716c0-34a6-4c96-95b2-7f614c86a430.png">
 
 
 # Gui Task
