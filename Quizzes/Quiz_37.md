@@ -7,6 +7,13 @@ An Accounting firm needs a software package to calculate compound interest. Draw
 
 ## Code
 ```.py
+# quiz_37.py
+class CompoundInterest:
+    def __init__(self, principal, rate, year):
+        self.principal = principal
+        self.rate = rate
+        self.years = year
+
 class Accounting:
     def __init__(self):
         self.data = CompoundInterest(principal=0,rate=0,year=0) #composition
@@ -38,3 +45,4 @@ class Accounting:
 <img width="1400" alt="Screen Shot 2023-02-05 at 13 39 37" src="https://user-images.githubusercontent.com/111941990/216802125-e5b159cd-5a5b-4c75-8282-111a34f55b4a.png">
 
 ## UML
+<img width="594" alt="Screen Shot 2023-02-05 at 17 34 59" src="https://user-images.githubusercontent.com/111941990/216809380-3ade2e1f-e962-4e94-80f7-20ea114d7b8a.png">
