@@ -51,4 +51,4 @@ class Classroom:
 ```
 
 ## UML
-<img width="596" alt="Screen Shot 2023-02-05 at 17 20 14" src="https://user-images.githubusercontent.com/111941990/216808788-7a2854ed-6c3f-48df-8911-77a01c7b694a.png">
+<img width="607" alt="Screen Shot 2023-02-05 at 17 21 09" src="https://user-images.githubusercontent.com/111941990/216808808-1856eae7-0481-46e2-b9bb-9833037d0762.png">
