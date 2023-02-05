@@ -152,5 +152,12 @@ plt.show()
 ## Distance Graph
 <img width="370" alt="Screen Shot 2023-02-05 at 14 29 18" src="https://user-images.githubusercontent.com/111941990/216803390-a8e9b874-5043-499b-9729-fad4789b485f.png">
 
+## Pycharm
+<img width="757" alt="Screen Shot 2023-02-05 at 14 30 35" src="https://user-images.githubusercontent.com/111941990/216803510-d84d7f20-c662-4ffc-bdd8-7df59f1277d8.png">
+
+<img width="959" alt="Screen Shot 2023-02-05 at 14 30 49" src="https://user-images.githubusercontent.com/111941990/216803524-6deedab2-eeb2-47f2-9d74-195703c4ad51.png">
+
+<img width="464" alt="Screen Shot 2023-02-05 at 14 30 56" src="https://user-images.githubusercontent.com/111941990/216803534-ad16b362-e836-441e-b852-8ee1679e512c.png">
+
 
 
