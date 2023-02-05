@@ -51,6 +51,7 @@ Screen:
             font_size: '34pt'
 ```
 
+<img width="801" alt="Screen Shot 2023-02-05 at 14 54 31" src="https://user-images.githubusercontent.com/111941990/216804102-8c0cd7d4-1ed9-4927-b1cc-949436e558eb.png">
 
 
 https://user-images.githubusercontent.com/111941990/216804073-079d43c3-1586-4d4f-ac21-4c9fb499337d.mov
