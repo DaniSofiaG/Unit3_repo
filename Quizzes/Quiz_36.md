@@ -50,3 +50,5 @@ class Classroom:
 
 ```
 
+## UML
+<img width="612" alt="Screen Shot 2023-02-05 at 17 19 22" src="https://user-images.githubusercontent.com/111941990/216808770-ff4a3e90-9d21-4111-9360-a3c3badb711f.png">
