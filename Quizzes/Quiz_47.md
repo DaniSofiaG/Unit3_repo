@@ -1,4 +1,6 @@
 # Quiz 47
+<img width="808" alt="Screen Shot 2023-03-13 at 15 38 29" src="https://user-images.githubusercontent.com/111941990/224625844-146b1cea-caa7-4fa8-9e21-263dbd548073.png">
+
 
 ## Python File 
 ```.py
@@ -339,3 +341,10 @@ MDScreen:
                 text: "----"
                 font_style: "Caption"
 ```
+
+## Evidence
+
+<img width="820" alt="Screen Shot 2023-03-13 at 15 20 41" src="https://user-images.githubusercontent.com/111941990/224625537-5f3dafee-fa69-4b12-ba96-1695a0fdcf52.png">
+
+<img width="920" alt="Screen Shot 2023-03-13 at 15 37 53" src="https://user-images.githubusercontent.com/111941990/224625702-61d8149f-9f2d-4fa7-be29-1c9c61149907.png">
+
