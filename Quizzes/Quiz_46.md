@@ -1,4 +1,5 @@
 # Quiz 46
+<img width="1007" alt="Screen Shot 2023-03-15 at 17 46 41" src="https://user-images.githubusercontent.com/111941990/225255351-1c6fa6f8-aaa6-406d-9cef-610c2235f642.png">
 
 ## Python file
 ```.py
