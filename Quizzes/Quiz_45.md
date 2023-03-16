@@ -24,5 +24,6 @@ ALTER TABLE transactions ADD withdrawls;
 # What is the name of the customer and the problem that
 resulted in the bankruptcy of the bank?
 
+Name: 
 Their bank balances do not match the transactions made.
 So the information in the tables doesn't match.
