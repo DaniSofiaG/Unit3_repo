@@ -21,4 +21,8 @@ ALTER TABLE transactions ADD withdrawls;
 ```
 <img width="1440" alt="Screen Shot 2023-03-16 at 2 26 23" src="https://user-images.githubusercontent.com/111941990/225391642-b749c10f-98b4-4d5a-a9bc-21ecdd7b6932.png">
 
+# What is the name of the customer and the problem that
+resulted in the bankruptcy of the bank?
 
+Their bank balances do not match the transactions made.
+So the information in the tables doesn't match.
